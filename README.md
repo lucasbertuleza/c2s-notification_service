@@ -44,3 +44,5 @@ Verifique o status (**Up**) de todos os containers para garantir que não houve 
 ```bash
 docker compose ps -a --format "table {{.Name}}\t{{.Status}}"
 ```
+
+O painel administrativo do RabbitMQ estará disponível na porta 8080, basta acessar a URL http://localhost:8080 e utilizar a palavra "guest" (sem aspas) como crendeciais para _username_ e _password_.
